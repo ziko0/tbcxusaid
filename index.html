@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>TBC x USAID</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <nav class="nav">
+                <div class="nav__wrapper-logo">
+                    <a href="#"><img src="./images/logo.svg" alt="tbc-logo" class="header__logo"></a>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">მთავარი</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">TBC IT</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">TBC x USAID</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">რისკები</a></li>
+                </ul>
+                <div class="nav__hamburger">
+                    <span class="hamburger__open">&#9776</span>
+                    <span class="hamburger__close">&#x2716</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrapper hero__wrapper">
+                <h1 class="hero__title">TBC x USAID</h1>
+                <h2 class="hero__subtitle">ტექნოლოგიური განათლება</h2>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="wrapper about__wrapper">
+                <p class="about__paragraph">
+                    „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა  საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს  სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.
+                </p>
+
+                <a href="#" class="about__link">გაიგე მეტი</a>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="wrapper cards__wrapper" id="cardGrid"></div>
+        </section>
+
+          <!-- პროექტის პარტნიორები - სლაიდერი -->
+          <section class="partners">
+            <button class="prev-btn" onclick="prevSlide()">❮</button>
+            <div class="wrapper">
+                <div class="partners-slider">
+                    <div class="slider-wrapper">
+                        <div class="slide">
+                            <img src="./images/Uside.webp" alt="Partner 1">
+                            <img src="./images/spaceint-logo.webp" alt="Partner 2">
+                            <img src="./images/tinet-logo.webp" alt="Partner 3">
+                        </div>
+                        <div class="slide">
+                            
+                            <img src="./images/Tegeta logo geo.webp" alt="Partner 4">
+                            <img src="./images/spectre-logo.webp" alt="Partner 5">
+                            <img src="./images/tbcinsurens-logo.webp" alt="Partner 6">
+                        </div>
+                      
+                        <div class="slide">
+                            <img src="./images/ufc-logo.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="next-btn" onclick="nextSlide()">❯</button>
+        </section>
+
+        <section class="accordion">
+            <div class="wrapper accordion__wrapper">
+                <div class="accordion__heading">
+                    <span>ხშირად დასმული კითხვები</span>
+                    <a href="#">ყველა კითხვა</a>
+                </div>
+                <div class="accordion" id="faqAccordion"></div>
+            </div>  
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper footer__wrapper">
+            <div class="footer__terms">
+                <img src="./images/footer-logo.webp" alt="tbc-logo" class="footer__logo">
+                <span class="rights">© 2023 ყველა უფლება დაცულია</span>
+                <a href="#" class="terms">წესები და პირობები</a>
+            </div>
+            <div class="contact">
+                <div class="social">
+                    <img src="./images/fb-logo.webp" alt="facebook-icon">
+                    <img src="./images/youtube-icon.webp" alt="youtube">
+                </div>
+                <button class="contact-btn">მოგვწერეთ</button>
+            </div>
+        </div>
+    </footer>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

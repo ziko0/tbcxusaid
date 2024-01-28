@@ -1,0 +1,56 @@
+[
+    {
+        "image": "./images/ios-bg.webp",
+        "title": "iOS Development",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/react-bg.webp",
+        "title": "React",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/python-bg.webp",
+        "title": "Intro to Python",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/advencedPhyton-bg.webp",
+        "title": "Advanced Python",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/security-bg.webp",
+        "title": "Advanced Cybersecurity Course",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/ToT-bg.webp",
+        "title": "ToT - Training of Trainers",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/blockchain-bg.webp",
+        "title": "Blockchain",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/DevOps-bg.webp",
+        "title": "DevOps",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    },
+    {
+        "image": "./images/infoSecurity-bg.webp",
+        "title": "Information Security Governance",
+        "registration": "რეგისტრაცია დასრულებულია",
+        "link": "#"
+    }
+]
